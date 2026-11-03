@@ -1,0 +1,19 @@
+name: OpenWatch
+options:
+  bundleIdPrefix: com.friday
+targets:
+  OpenWatch:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources: [OpenWatch]
+    info:
+      path: OpenWatch/Info.plist
+      properties:
+        CFBundleDisplayName: OpenWatch
+        UILaunchScreen: {}
+        NSBluetoothAlwaysUsageDescription: Conectar no relógio
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.friday.openwatch
+        SWIFT_VERSION: "5.0"
